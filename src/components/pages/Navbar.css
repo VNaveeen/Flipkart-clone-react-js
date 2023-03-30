@@ -1,0 +1,42 @@
+.nav-cnt{
+    display: flex;
+    flex-direction: row;
+    padding: 2px ;
+    background-color: hsl(212, 100%, 50%);
+    padding-left: 10%;
+    max-width: 100%;
+    padding-right: 10%;
+}
+
+.f-logo{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.flip-img{
+    height: 25px;
+    padding-right: 10px;
+    
+}
+
+.explore{
+    text-decoration: none;
+    color: white;
+}
+.s-plus{
+    color: yellow;
+}
+
+.div-btn{
+    color: white;
+}
+ 
+.inp-box .MuiInputBase-input {
+    height: 5px;
+  }
+
+/* .inp-box{
+    background-color: white;
+    padding-top: 2px;
+} */

@@ -1,0 +1,31 @@
+
+.head-cnt{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.cnt-items{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.imgs{
+    width: 60px;
+    height: 60px;
+}
+
+.cnt-names{
+    text-align: center;
+}
+
+.a-tag{
+    text-decoration: none;
+    color: black;
+}
