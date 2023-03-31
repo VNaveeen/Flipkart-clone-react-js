@@ -6,21 +6,31 @@ import Footer from "./Footer";
 import './Home.css';
 
 import Electronics from "../content/Electronics";
+import Sports from "../content/Sports";
+import Deals from "../content/Deals";
+import Appliances from "../content/Appliances";
+import Toys from "../content/Toys";
 
 
 function Home() { 
  
     return ( 
       <>
+      <div className="home-bo">
       <NavBar />
       <Header />
       <Carousels />
     
        <div> 
            <Electronics />
+           <Sports />
+           < Deals />
+           <Appliances />
+           <Toys />
            
       </div>
       <Footer />
+      </div>
       </>
     ); 
 } 

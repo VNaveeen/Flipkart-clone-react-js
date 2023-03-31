@@ -3,13 +3,13 @@ import Carousel from 'react-bootstrap/Carousel';
 import Flight1 from '../../assests/Flight1.png';
 import Flight2 from '../../assests/Flights2.png';
 import Flight3 from '../../assests/Flights3.png';
-import Slidemob from '../../assests/Slidemob.png';
+import Flight4 from '../../assests/Flights4.png';
 import './Carousel.css';
 // import { Carousel } from 'react-bootstrap';
 
 function Carousels() {
     return (
-        <div style={{display : 'block' , width : '100%' , padding : '10px'}}>
+        <div style={{display : 'block' , width : '100%' ,marginTop: "10px"}}>
             <Carousel className='crs'>
                 <Carousel.Item interval={3000}>
                     <img
@@ -29,8 +29,8 @@ function Carousels() {
 
                 <Carousel.Item interval={3000}>
                     <img className='slide-img3'
-                    src={Slidemob}
-                    alt = 'slidemob'
+                    src={Flight4}
+                    alt = 'third slide'
                     />
                 </Carousel.Item>
 
@@ -38,7 +38,7 @@ function Carousels() {
                     <img
                         className="slide-img4"
                         src={Flight3}
-                        alt="Third slide"
+                        alt="fourth slide"
                     />
                  
                 </Carousel.Item>

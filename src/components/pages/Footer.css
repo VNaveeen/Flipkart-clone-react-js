@@ -1,0 +1,42 @@
+.footer-cnt{
+    display: flex;
+    flex-direction: row;
+    max-height: 100%;
+    max-width: 100%;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    background-color: rgba(3, 3, 43, 0.925);
+}
+
+.about-cnt{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding-left: 50px;
+}
+
+.link-cnt{
+    display: flex;
+    flex-direction: column;
+    /* text-decoration-color: white; */
+}
+
+.anc-tag{
+    text-decoration: none;
+    color: white;
+    font-size: small;
+    padding-top: 5px;
+}
+
+.help-cnt{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding-left: 50px;
+}
+.consumer-cnt{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding-left: 50px;
+}

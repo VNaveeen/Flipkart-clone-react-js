@@ -1,41 +1,52 @@
 import React from "react";
 import './Electronics.css';
 import { Button } from "@mui/material";
+import { Card } from "@mui/material";
+
 
 import Cover from '../../assests/productimgs/Covers.png';
 import Moniter from '../../assests/productimgs/Moniter.png';
+import Cameraaa from '../../assests/productimgs/Camera.png';
+import Trimmer from '../../assests/productimgs/Trimmer.png';
+import SmartTv from '../../assests/productimgs/SmartTv.png';
+
+
 
 function Electronics() {
     return(
         <>
-        <div className="elec-cnt">
+        <Card className="elec-cnt">
             <div className="elec-left">
-                <h5 style={{marginLeft : '10px'}}>Best of electronics</h5>
+                <div style={{marginLeft : '10px'}}>Best of Electronics</div>
                 <Button style={{width : '100px', marginLeft : '20px'}} variant="contained">View all</Button>
             </div>
             <div className="elec-right">
                 <div>
                     <img className="productimg" src={Cover} alt="covers" />
-                    <h5>Plain cases & covers</h5>
+                    <div className="producttlt">Plain cases & covers</div>
                 </div>
                 <div>
                     <img  className="productimg" src={Moniter} alt="moniter" />
-                    <h5>Moniters</h5>
+                    <div className="producttlt">Moniters</div>
                 </div>
                 <div>
-                    <h5>Printers</h5>
+                    <img className="productimg" src={Cameraaa} alt="camera" />
+                    <div className="producttlt">Camera</div>
                 </div>
                 <div>
-                    <h5>Best of hair dryers</h5>
+                    <img className="productimg" src={Trimmer} alt="drimmer" />
+                    <div className="producttlt">Trimmer</div>
                 </div>
                 <div>
-                    <h5>BenQ Moniters</h5>
+                    <img className="productimg" src={SmartTv} alt="smart tv" />
+                    <div className="producttlt">SmartTv</div>
                 </div>
                 <div>
-                    <h5>View sonic Moniters</h5>
+                    {/* <img className="productimg" src={} alt="ac" /> */}
+                    <div className="producttlt">Ac</div>
                 </div>
             </div>
-        </div>
+        </Card>
         </>
     )
 }

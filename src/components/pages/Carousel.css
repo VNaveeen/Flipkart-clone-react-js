@@ -1,10 +1,10 @@
-.crs{
+/* .crs{
     height:"1000px";
-    background-color:red;
     
-}
+} */
 .carousel-indicators [data-bs-target] {
-    box-sizing: content-box;
+    display: none;
+    /* box-sizing: content-box;
     flex: 0 1 auto;
     display: none;
     width: 30px;
@@ -20,5 +20,6 @@
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
     opacity: .5;
-    transition: opacity .6s ease;
+    transition: opacity .6s ease; */
 }
+
