@@ -4,12 +4,12 @@ import { Button } from "@mui/material";
 import { Card } from "@mui/material";
 
 
-import Cover from '../../assests/productimgs/Covers.png';
-import Moniter from '../../assests/productimgs/Moniter.png';
-import Cameraaa from '../../assests/productimgs/Camera.png';
-import Trimmer from '../../assests/productimgs/Trimmer.png';
-import SmartTv from '../../assests/productimgs/SmartTv.png';
-
+import S21FE from '../../assests/bestdeals/S21FE.png';
+import SamsungF04 from '../../assests/bestdeals/SamsungF04.png';
+import Wbottles from '../../assests/bestdeals/Wbottles.png';
+import VivoT1 from '../../assests/bestdeals/VivoT1.png';
+import Sunglass from '../../assests/bestdeals/Sunglass.png';
+import MotoG73 from '../../assests/bestdeals/MotoG73.png';
 
 
 function Deals() {
@@ -22,28 +22,28 @@ function Deals() {
             </div>
             <div className="elec-right">
                 <div>
-                    <img className="productimg" src={Cover} alt="covers" />
-                    <div className="producttlt">Plain cases & covers</div>
+                    <img className="productimg" src={S21FE} alt="S21fe" />
+                    <div className="producttlt">S21FE</div>
                 </div>
                 <div>
-                    <img  className="productimg" src={Moniter} alt="moniter" />
-                    <div className="producttlt">Moniters</div>
+                    <img  className="productimg" src={SamsungF04} alt="samsungf04" />
+                    <div className="producttlt">SamsungF04</div>
                 </div>
                 <div>
-                    <img className="productimg" src={Cameraaa} alt="camera" />
-                    <div className="producttlt">Camera</div>
+                    <img className="productimg" src={Wbottles} alt="bottle" />
+                    <div className="producttlt">Water bottles</div>
                 </div>
                 <div>
-                    <img className="productimg" src={Trimmer} alt="drimmer" />
-                    <div className="producttlt">Trimmer</div>
+                    <img className="productimg" src={VivoT1} alt="vivo" />
+                    <div className="producttlt">VivoT1</div>
                 </div>
                 <div>
-                    <img className="productimg" src={SmartTv} alt="smart tv" />
-                    <div className="producttlt">SmartTv</div>
+                    <img className="productimg" src={Sunglass} alt="glass" />
+                    <div className="producttlt">Sunglass</div>
                 </div>
                 <div>
-                    {/* <img className="productimg" src={} alt="ac" /> */}
-                    <div className="producttlt">Ac</div>
+                    <img className="productimg" src={MotoG73} alt="moto" />
+                    <div className="producttlt">MotoG73</div>
                 </div>
             </div>
         </Card>

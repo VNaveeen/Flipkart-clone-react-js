@@ -9,7 +9,7 @@ import Moniter from '../../assests/productimgs/Moniter.png';
 import Cameraaa from '../../assests/productimgs/Camera.png';
 import Trimmer from '../../assests/productimgs/Trimmer.png';
 import SmartTv from '../../assests/productimgs/SmartTv.png';
-
+import Ac from '../../assests/productimgs/Ac.png';
 
 
 function Electronics() {
@@ -42,7 +42,7 @@ function Electronics() {
                     <div className="producttlt">SmartTv</div>
                 </div>
                 <div>
-                    {/* <img className="productimg" src={} alt="ac" /> */}
+                    <img className="productimg" src={Ac} alt="ac" />
                     <div className="producttlt">Ac</div>
                 </div>
             </div>

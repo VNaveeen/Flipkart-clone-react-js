@@ -4,12 +4,13 @@ import { Button } from "@mui/material";
 import { Card } from "@mui/material";
 
 
-import Cover from '../../assests/productimgs/Covers.png';
-import Moniter from '../../assests/productimgs/Moniter.png';
-import Cameraaa from '../../assests/productimgs/Camera.png';
-import Trimmer from '../../assests/productimgs/Trimmer.png';
-import SmartTv from '../../assests/productimgs/SmartTv.png';
 
+import Fan from '../../assests/appliProducts/Fan.png';
+import Kettles from '../../assests/appliProducts/Kettles.png';
+import Refrige from '../../assests/appliProducts/Refrig.png';
+import Speaker from '../../assests/appliProducts/Speaker.png';
+import Stove from '../../assests/appliProducts/Stove.png';
+import Washmachine from '../../assests/appliProducts/Washmacine.png';
 
 
 function Appliances() {
@@ -22,28 +23,28 @@ function Appliances() {
             </div>
             <div className="elec-right">
                 <div>
-                    <img className="productimg" src={Cover} alt="covers" />
-                    <div className="producttlt">Plain cases & covers</div>
+                    <img className="productimg" src={Fan} alt="fan" />
+                    <div className="producttlt">Fan</div>
                 </div>
                 <div>
-                    <img  className="productimg" src={Moniter} alt="moniter" />
-                    <div className="producttlt">Moniters</div>
+                    <img  className="productimg" src={Kettles} alt="kettles" />
+                    <div className="producttlt">Electric Kettles</div>
                 </div>
                 <div>
-                    <img className="productimg" src={Cameraaa} alt="camera" />
-                    <div className="producttlt">Camera</div>
+                    <img className="productimg" src={Refrige} alt="refrige" />
+                    <div className="producttlt">Refrigerator</div>
                 </div>
                 <div>
-                    <img className="productimg" src={Trimmer} alt="drimmer" />
-                    <div className="producttlt">Trimmer</div>
+                    <img className="productimg" src={Speaker} alt="speaker" />
+                    <div className="producttlt">Speaker</div>
                 </div>
                 <div>
-                    <img className="productimg" src={SmartTv} alt="smart tv" />
-                    <div className="producttlt">SmartTv</div>
+                    <img className="productimg" src={Stove} alt="stove" />
+                    <div className="producttlt">Stove</div>
                 </div>
                 <div>
-                    {/* <img className="productimg" src={} alt="ac" /> */}
-                    <div className="producttlt">Ac</div>
+                    <img className="productimg" src={Washmachine} alt="washmachine" />
+                    <div className="producttlt">Washing Machine</div>
                 </div>
             </div>
         </Card>

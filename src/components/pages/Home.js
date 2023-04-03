@@ -9,7 +9,7 @@ import Electronics from "../content/Electronics";
 import Sports from "../content/Sports";
 import Deals from "../content/Deals";
 import Appliances from "../content/Appliances";
-import Toys from "../content/Toys";
+// import Toys from "../content/Toys";
 
 
 function Home() { 
@@ -26,7 +26,7 @@ function Home() {
            <Sports />
            < Deals />
            <Appliances />
-           <Toys />
+           {/* <Toys /> */}
            
       </div>
       <Footer />

@@ -4,6 +4,8 @@ import './Navbar.css';
 import TextField from '@mui/material/TextField';
 //import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
+import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import flipkart from '../../assests/flipkart.png';
 
@@ -37,7 +39,7 @@ import flipkart from '../../assests/flipkart.png';
             <Button style={{marginTop : '15px' ,marginLeft : '15px' }} variant="text"><div className="div-btn">Become a seller</div></Button>
         </div>
         <div>
-            <Button style={{marginTop : '15px' ,marginLeft : '15px' }} variant="text"><div className="div-btn">More</div></Button>
+            <Button style={{marginTop : '15px' ,marginLeft : '15px' }} variant="text"  endIcon={<KeyboardArrowDownIcon style={{color : 'white'}} />}><div className="div-btn" >More</div></Button>
         </div>
         <div>
             <Button style={{marginTop : '15px' ,marginLeft : '15px' }} variant="text" startIcon={<ShoppingCartIcon  sx={{ color: "white" }}/>}><div className="div-btn">cart</div></Button>

@@ -1,11 +1,18 @@
+.f-container{
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+    max-width: 100%;
+    background-color: rgba(3, 3, 43, 0.925);
+}
+
 .footer-cnt{
     display: flex;
     flex-direction: row;
-    max-height: 100%;
-    max-width: 100%;
+   
     padding-top: 30px;
-    padding-bottom: 100px;
-    background-color: rgba(3, 3, 43, 0.925);
+    padding-bottom: 20px;
+    
 }
 
 .about-cnt{
@@ -39,4 +46,53 @@
     flex-direction: column;
     margin: 10px;
     padding-left: 50px;
+}
+
+.social-cnt{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding-left: 50px;   
+}
+
+.mail-cnt{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-left: 80px;
+    padding-left: 30px; 
+    border-left: 1px solid #454d5e;
+}
+.address-cnt{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding-left: 50px; 
+}
+
+.p-tag{
+    color: white;
+    font-size: small;
+    padding-top: 0px;
+    display: flex;
+}
+
+
+/* bottom */
+
+.bottom-cnt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-right: 20px;
+    border-top: 1px solid #454d5e;
+    border-bottom: 1px solid #454d5e;
+    padding-bottom: 10px;
+}
+
+.btm-text{
+    color: white;
+    margin-top: 15px;
+    
 }
