@@ -2,6 +2,12 @@ import { Button, Card } from '@mui/material';
 import React from 'react';
 import './Footer.css';
 
+//icons
+import WorkIcon from '@mui/icons-material/Work';
+import StarsIcon from '@mui/icons-material/Stars';
+import CardGiftcardIcon from '@mui/icons-material/CardGiftcard';
+import HelpIcon from '@mui/icons-material/Help';
+
 
 
 
@@ -57,33 +63,33 @@ function Footer() {
                         <div className='mail-cnt'>
                             <div style={{ color: "gray", fontSize: "small", marginBottom: "5px" }}>Mail Us:</div>
                             <div className='p-tag-cnt'>
-                                <p className='p-tag'>Flipkart Internet Private Limited,</p>
-                                <p className='p-tag'>Buildings Alyssa, Begonia &</p>
-                                <p className='p-tag'>Clove Embassy Tech Village,</p>
-                                <p className='p-tag'>Outer Ring Road, Devarabeesanahalli Village,</p>
-                                <p className='p-tag'>Bengaluru, 560103,</p>
-                                <p className='p-tag'>Karnataka, India</p>
+                                <div className='p-tag'>Flipkart Internet Private Limited,</div>
+                                <div className='p-tag'>Buildings Alyssa, Begonia &</div>
+                                <div className='p-tag'>Clove Embassy Tech Village,</div>
+                                <div className='p-tag'>Outer Ring Road, Devarabeesanahalli Village,</div>
+                                <div className='p-tag'>Bengaluru, 560103,</div>
+                                <div className='p-tag'>Karnataka, India</div>
                             </div>
                         </div>
                         <div className='address-cnt'>
                             <div style={{ color: "gray", fontSize: "small", marginBottom: "5px" }}>Registered Office Address:</div>
                             <div>
-                                <p className='p-tag'>Flipkart Internet Private Limited,</p>
-                                <p className='p-tag'> Buildings Alyssa, Begonia &</p>
-                                <p className='p-tag'>Clove Embassy Tech Village,</p>
-                                <p className='p-tag'>Outer Ring Road, Devarabeesanahalli Village,</p>
-                                <p className='p-tag'>Bengaluru, 560103,</p>
-                                <p className='p-tag'>Karnataka, India</p>
-                                <p className='p-tag'>CIN : U51109KA2012PTC066107</p>
-                                <p className='p-tag'>Telephone: 044-45614700</p>
+                                <div className='p-tag'>Flipkart Internet Private Limited,</div>
+                                <div className='p-tag'> Buildings Alyssa, Begonia &</div>
+                                <div className='p-tag'>Clove Embassy Tech Village,</div>
+                                <div className='p-tag'>Outer Ring Road, Devarabeesanahalli Village,</div>
+                                <div className='p-tag'>Bengaluru, 560103,</div>
+                                <div className='p-tag'>Karnataka, India</div>
+                                <div className='p-tag'>CIN : U51109KA2012PTC066107</div>
+                                <div className='p-tag'>Telephone: 044-45614700</div>
                             </div>
                         </div>
                     </div>
                     <div className='bottom-cnt'>
-                    <Button style={{marginTop : '15px' ,marginLeft : '15px' }} variant="text"><div className="div-btn">Become a seller</div></Button>
-                    <Button style={{marginTop : '15px' ,marginLeft : '15px' }} variant="text"><div className="div-btn">Advertise</div></Button>
-                    <Button style={{marginTop : '15px' ,marginLeft : '15px' }} variant="text"><div className="div-btn">Gift cards</div></Button>
-                    <Button style={{marginTop : '15px' ,marginLeft : '15px' }} variant="text"><div className="div-btn">Help center</div></Button>
+                    <Button style={{marginTop : '15px' ,marginLeft : '15px' }} variant="text" startIcon ={<WorkIcon className='footer-icon' />}><div className="div-btn">Become a seller</div></Button>
+                    <Button style={{marginTop : '15px' ,marginLeft : '15px' }} variant="text" startIcon ={<StarsIcon className='footer-icon' />}><div className="div-btn">Advertise</div></Button>
+                    <Button style={{marginTop : '15px' ,marginLeft : '15px' }} variant="text" startIcon ={<CardGiftcardIcon className='footer-icon' />}><div className="div-btn">Gift cards</div></Button>
+                    <Button style={{marginTop : '15px' ,marginLeft : '15px' }} variant="text" startIcon ={<HelpIcon className='footer-icon' />}><div className="div-btn">Help center</div></Button>
                     <div className='btm-text'>© 2007-2023 Flipkart.com</div>
                     <img src='https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/payment-method_69e7ec.svg' alt='' />
                     </div>
