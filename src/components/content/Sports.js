@@ -24,27 +24,27 @@ function Sports() {
             <div className="elec-right">
                 <div>
                     <img className="productimg" src={Mrf} alt="mrf" />
-                    <div className="producttlt">MRF</div>
+                    <div className="producttlt"><button className="productbtn">MRF</button></div>
                 </div>
                 <div>
                     <img  className="productimg" src={Puma} alt="puma" />
-                    <div className="producttlt">Puma</div>
+                    <div className="producttlt"><button className="productbtn">Puma</button></div>
                 </div>
                 <div>
                     <img className="productimg" src={Nivia} alt="nivia" />
-                    <div className="producttlt">Nivia</div>
+                    <div className="producttlt"><button className="productbtn">Nivia</button></div>
                 </div>
                 <div>
                     <img className="productimg" src={Ceat} alt="Ceat" />
-                    <div className="producttlt">Ceat</div>
+                    <div className="producttlt"><button className="productbtn">Ceat</button></div>
                 </div>
                 <div>
                     <img className="productimg" src={Cosco} alt="cosco" />
-                    <div className="producttlt">Cosco</div>
+                    <div className="producttlt"><button className="productbtn">Cosco</button></div>
                 </div>
                 <div>
                     <img className="productimg" src={Ball} alt="ball" />
-                    <div className="producttlt">Ball</div>
+                    <div className="producttlt"><button className="productbtn">Ball</button></div>
                 </div>
             </div>
         </Card>

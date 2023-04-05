@@ -23,27 +23,27 @@ function Deals() {
             <div className="elec-right">
                 <div>
                     <img className="productimg" src={S21FE} alt="S21fe" />
-                    <div className="producttlt">S21FE</div>
+                    <div className="producttlt"><button className="productbtn">S21FE</button></div>
                 </div>
                 <div>
                     <img  className="productimg" src={SamsungF04} alt="samsungf04" />
-                    <div className="producttlt">SamsungF04</div>
+                    <div className="producttlt"><button className="productbtn">SamsungF04</button></div>
                 </div>
                 <div>
                     <img className="productimg" src={Wbottles} alt="bottle" />
-                    <div className="producttlt">Water bottles</div>
+                    <div className="producttlt"><button className="productbtn">Water bottles</button></div>
                 </div>
                 <div>
                     <img className="productimg" src={VivoT1} alt="vivo" />
-                    <div className="producttlt">VivoT1</div>
+                    <div className="producttlt"><button className="productbtn">VivoT1</button></div>
                 </div>
                 <div>
                     <img className="productimg" src={Sunglass} alt="glass" />
-                    <div className="producttlt">Sunglass</div>
+                    <div className="producttlt"><button className="productbtn">Sunglass</button></div>
                 </div>
                 <div>
                     <img className="productimg" src={MotoG73} alt="moto" />
-                    <div className="producttlt">MotoG73</div>
+                    <div className="producttlt"><button className="productbtn">MotoG73</button></div>
                 </div>
             </div>
         </Card>

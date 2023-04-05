@@ -24,27 +24,27 @@ function Appliances() {
             <div className="elec-right">
                 <div>
                     <img className="productimg" src={Fan} alt="fan" />
-                    <div className="producttlt">Fan</div>
+                    <div className="producttlt"><button className="productbtn">Fan</button></div>
                 </div>
                 <div>
                     <img  className="productimg" src={Kettles} alt="kettles" />
-                    <div className="producttlt">Electric Kettles</div>
+                    <div className="producttlt"><button className="productbtn">Electric Kettles</button></div>
                 </div>
                 <div>
                     <img className="productimg" src={Refrige} alt="refrige" />
-                    <div className="producttlt">Refrigerator</div>
+                    <div className="producttlt"><button className="productbtn">Refrigerator</button></div>
                 </div>
                 <div>
                     <img className="productimg" src={Speaker} alt="speaker" />
-                    <div className="producttlt">Speaker</div>
+                    <div className="producttlt"><button className="productbtn">Speaker</button></div>
                 </div>
                 <div>
                     <img className="productimg" src={Stove} alt="stove" />
-                    <div className="producttlt">Stove</div>
+                    <div className="producttlt"><button className="productbtn">Stove</button></div>
                 </div>
                 <div>
                     <img className="productimg" src={Washmachine} alt="washmachine" />
-                    <div className="producttlt">Washing Machine</div>
+                    <div className="producttlt"><button className="productbtn">Washing Machine</button></div>
                 </div>
             </div>
         </Card>

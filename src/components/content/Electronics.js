@@ -23,27 +23,27 @@ function Electronics() {
             <div className="elec-right">
                 <div>
                     <img className="productimg" src={Cover} alt="covers" />
-                    <div className="producttlt">Plain cases & covers</div>
+                    <div className="producttlt"><button className="productbtn">Plain cases & covers</button></div>
                 </div>
                 <div>
                     <img  className="productimg" src={Moniter} alt="moniter" />
-                    <div className="producttlt">Moniters</div>
+                    <div className="producttlt"><button className="productbtn">Moniters</button></div>
                 </div>
                 <div>
                     <img className="productimg" src={Cameraaa} alt="camera" />
-                    <div className="producttlt">Camera</div>
+                    <div className="producttlt"><button className="productbtn">Camera</button></div>
                 </div>
                 <div>
                     <img className="productimg" src={Trimmer} alt="drimmer" />
-                    <div className="producttlt">Trimmer</div>
+                    <div className="producttlt"><button className="productbtn">Trimmer</button></div>
                 </div>
                 <div>
                     <img className="productimg" src={SmartTv} alt="smart tv" />
-                    <div className="producttlt">SmartTv</div>
+                    <div className="producttlt"><button className="productbtn">SmartTv</button></div>
                 </div>
                 <div>
                     <img className="productimg" src={Ac} alt="ac" />
-                    <div className="producttlt">Ac</div>
+                    <div className="producttlt"><button className="productbtn">Ac</button></div>
                 </div>
             </div>
         </Card>

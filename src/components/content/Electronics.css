@@ -10,8 +10,8 @@
     width: 20%;
     display: flex;
     flex-direction: column;
-    padding: 30px;
-    margin-top: 50px;
+    padding: 50px;
+    /* margin-top: 0px; */
     font-weight: 500;
     font-size: x-large;
 }
@@ -24,8 +24,8 @@
 }
 
 .productimg{
-    width: 150px;
-    height: 200px;
+    width: 170px;
+    height: 175px;
     padding-top : 20px;
     padding-bottom: 10px;
     padding-left: 20px;
@@ -34,4 +34,9 @@
 .producttlt{
     text-align: center;
     margin-bottom: 10px;
+}
+
+.productbtn{
+    border: none;
+    background: none;
 }
